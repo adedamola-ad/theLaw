@@ -13,5 +13,5 @@ def home(request):
 
 
     context = {'form': form}
-    template_name = 'core/home.html'
+    template_name = 'core/index.html'
     return render(request, template_name, context)
