@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ronaldo - Free Bootstrap 4 Template by Colorlib</title>
+    <title>theLaw</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">-->
-    <link rel="stylesheet" type="text/css" href="{% static 'core/css/open-iconic-bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/open-iconic-bootstrap.min.css' %}">
     <!--<link rel="stylesheet" href="css/animate.css">-->
     <link rel="stylesheet" type="text/css" href="{% static 'core/css/animate.css' %}">
     
@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'core/css/aos.css' %}">
 
     <!-- <link rel="stylesheet" href="css/ionicons.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="{% static 'core/css/ionicons.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/ionicons.min.css' %}">
     
     <!-- <link rel="stylesheet" href="css/flaticon.css">-->
     <link rel="stylesheet" type="text/css" href="{% static 'core/css/flaticon.css' %}">
@@ -36,16 +36,16 @@
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
  -->
 	<!-- JS, Popper.js, and jQuery -->
-	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span>R</span>onaldo</a>
+	      <a class="navbar-brand" href="index.html"><span>L</span>awyer</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -70,12 +70,12 @@
           <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
           	<div class="text text-center">
           		<span class="subheading">Hey! I am</span>
-		  				<h1>Ronaldo Fredrickson</h1>
+		  				<h1>a lawyer</h1>
 			  				<h2>I'm a 
 								  <span
 								     class="txt-rotate"
 								     data-period="2000"
-								     data-rotate='[ "Web Designer.", "Developer.", "Photographer.", "Marketer.", "Blogger" ]'></span>
+								     data-rotate='[ "Lawyer.", "Businesswoman.","Blogger" ]'></span>
 								</h2>
 							</div>
             </div>
@@ -95,7 +95,7 @@
     			<div class="col-md-6 col-lg-6 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image: url('images/about.jpg');">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image: url('static/core/images/about.jpg');">
 	    				</div>
     				</div>
     			</div>
@@ -139,7 +139,7 @@
     				<a href="#" class="partner"><img src="images/partner-2.png" class="img-fluid" alt="Colorlib Template"></a>
     			</div>
     			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="images/partner-3.png" class="img-fluid" alt="Colorlib Template"></a>
+    				<a href="#" class="partner"><img src="{% static 'core/images/partner-3.png' %}" class="img-fluid" alt="Colorlib Template"></a>
     			</div>
     			<div class="col-sm ftco-animate">
     				<a href="#" class="partner"><img src="images/partner-4.png" class="img-fluid" alt="Colorlib Template"></a>
@@ -920,47 +920,47 @@
   
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
 
 
   <!-- <script src="js/jquery.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery.min.js' %}"></script>
 
   <!-- <script src="js/jquery-migrate-3.0.1.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery-migrate-3.0.1.min.js' %}"></script>
 
   <!-- <script src="js/popper.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/popper.min.js' %}"></script>
 
   <!-- <script src="js/bootstrap.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/bootstrap.min.js' %}"></script>
 
   <!-- <script src="js/jquery.easing.1.3.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery.easing.1.3.js' %}"></script>
 
   <!-- <script src="js/jquery.waypoints.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/jquey.waypoints.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery.waypoints.min.js' %}"></script>
 
   <!-- <script src="js/jquery.stellar.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/jquery.stellar.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery.stellar.min.js' %}"></script>
 
   <!-- <script src="js/owl.carousel.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/owl.carousel.min.js' %}"></script>
 
   <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery.magnific-popup.min.js' %}"></script>
 
   <!-- <script src="js/aos.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/aos.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/aos.js' %}"></script>
 
   <<!-- script src="js/jquery.animateNumber.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/animateNumber.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery.animateNumber.min.js' %}"></script>
 
   <!-- <script src="js/scrollax.min.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/scrollax.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/scrollax.min.js' %}"></script>
 
   <!-- <script src="js/main.js"></script> -->
-  <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/main.js' %}"></script>
     
   </body>
 </html>
